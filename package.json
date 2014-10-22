@@ -1,8 +1,7 @@
 {
   "name": "tw-zipcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "serch Taiwan's zipcode",
-  "private": true,
   "bin": {
     "tw-zipcode": "./bin/tw-zipcode"
   },
@@ -23,8 +22,8 @@
   "dependencies": {
     "commander": "~2.0.0",
     "autocmdr": "~0.0.4",
-    "coffee-script": "^1.8.0"
+    "coffee-script": "^1.8.0",
+    "cli-color": "^0.3.2"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
