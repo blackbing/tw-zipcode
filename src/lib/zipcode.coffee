@@ -7,13 +7,17 @@ class ZipCode
     addr = addr.replace(/[  ]/, '')
     result = addrmt.exec(addr)
     if not result
-      return null
+      throw new Error('Parse Error! Please check the input again.')
     else
       cityName = result[2]
       cityName = cityName.replace('臺', '台')
       city = cityName + result[3]
       district = result[4]
-      return data[city][district]
+      if data[city]? and data[city][district]?
+        return data[city][district]
+      else
+        throw new Error("Can not search 「#{result[2]}」or 「#{result[4]}」")
+
 
 
 
