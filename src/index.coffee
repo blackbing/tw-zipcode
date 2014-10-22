@@ -17,7 +17,7 @@ if program.addr and typeof program.addr is 'string'
   addr = program.addr
   try
     result = zipcode.getZipCode(addr)
-    console.log clc.green(result)
+    console.log result
   catch e
     console.log clc.red("ERROR: #{e.message}")
     process.exit(1)
