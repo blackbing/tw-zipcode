@@ -1,0 +1,30 @@
+{
+  "name": "tw-zipcode",
+  "version": "0.0.1",
+  "description": "serch Taiwan's zipcode",
+  "private": true,
+  "bin": {
+    "tw-zipcode": "./bin/tw-zipcode"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "author": {
+    "name": "Bingo Yang",
+    "email": "blackbing@gmail.com",
+    "url": "https://github.com/blackbing"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/blackbing/tw-zipcode"
+  },
+  "license": "MIT",
+  "bugs": "https://github.com/blackbing/tw-zipcode/issues",
+  "dependencies": {
+    "commander": "~2.0.0",
+    "autocmdr": "~0.0.4",
+    "coffee-script": "^1.8.0"
+  },
+  "devDependencies": {
+  }
+}
