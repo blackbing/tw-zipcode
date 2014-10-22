@@ -8,7 +8,7 @@ require('autocmdr/lib/help')(program)
 
 
 program
-  .version('0.0.3')
+  .version('0.0.4')
   .usage('地址')
   .option('-a, --addr [value]', '地址')
   .parse(process.argv)
