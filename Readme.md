@@ -20,6 +20,18 @@ tw-zipcode -a 台北市中正區八德路１段88號 //-> 100
 tw-zipcode -a 新北市 新莊區 中華路二段111號38樓 //-> 242
 ```
 
+## Alias
+You can also add alias in your bashrc
+
+```
+alias zipcode='tw-zipcode -a $1'
+```
+then you can easily get zipcode from address  like this:
+```
+zipcode 台北市 中正區   八德路１段88號 //-> 100
+```
+
+
 ```node ./bin/tw-zipcode --help```
 
 # License
