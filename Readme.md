@@ -17,6 +17,7 @@ $ npm install -g tw-zipcode
 ```
 tw-zipcode -a 臺北市中正區八德路１段 //-> 100
 tw-zipcode -a 台北市中正區八德路１段88號 //-> 100
+tw-zipcode -a 新北市 新莊區 中華路二段111號38樓 //-> 242
 ```
 
 ```node ./bin/tw-zipcode --help```
