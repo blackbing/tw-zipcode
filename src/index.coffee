@@ -21,7 +21,7 @@ argvs.push argv.slice(indexAddress+1).join('')
 
 
 program
-  .version('0.0.4')
+  .version('0.0.5')
   .usage('地址')
   .option('-a, --addr [value]', '地址')
   .parse(argvs)

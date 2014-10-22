@@ -1,6 +1,6 @@
 {
   "name": "tw-zipcode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "serch Taiwan's zipcode",
   "bin": {
     "tw-zipcode": "./bin/tw-zipcode"
